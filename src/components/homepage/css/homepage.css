@@ -1,0 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+ a{
+    text-decoration: none;
+}
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6{
+    font-family: sans-serif;
+}
+ p{
+    color:grey;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+
+input{
+    -moz-appearance: textfield;
+}
+
+input[type=submit], .signin input[type=submit]{
+    cursor: pointer;
+}

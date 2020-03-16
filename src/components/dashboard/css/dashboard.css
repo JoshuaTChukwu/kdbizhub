@@ -1,0 +1,494 @@
+  .dashboardHold{
+      width:80%;
+  }
+    .dashboardApp .table{
+        width: 100%;
+        overflow: auto;
+    }
+    #transactions{
+        padding: 30px;
+        width: 80%;
+    }
+    #transactions table{
+        width: 100%;
+        margin: 15px 0;
+        min-width: 400px;
+        border-collapse: collapse;
+    }
+
+    #transactions table td, #transactions table th{
+        text-align: center;
+        color:rgb(25, 25, 66);
+        width:24%;
+    }
+    #transactions table tr{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    }
+
+    .transactions{
+        text-align: center;
+        background-color: white;
+        box-shadow:  0 0 10px 1px rgba(128, 128, 128, 0.3);
+        border-radius: 10px;
+    }
+
+    .transactions a{
+        display: inline-block;
+        color:grey;
+        margin: 10px 7px;
+        font-weight: bolder;
+    }
+
+    .transactions a:hover, .transactions a:active, .transactions a.active{
+        color:orange;
+    }
+
+    .dashboardApp  .Ttable{
+        width: 80%;
+        margin:auto;
+        overflow: auto;
+    }
+
+  .dashboardApp  #profile, #logout{
+        width:80%;
+        padding:30px;
+    }
+
+    .card{
+        background-color: white;
+        border-radius: 10px;
+        padding:10px;
+        margin: 30px 0;
+        box-shadow: 0 0 20px 2px rgba(128, 128, 128, 0.3);
+    }
+
+ .dashboardApp   #profile h2{
+        margin:5px;
+        padding: 0;
+    }
+
+  .dashboardApp  .form {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+ .dashboardApp   #profile form div h4{
+        font-size: 15px;
+        margin: 5px 0;
+        font-weight: lighter;
+    }
+
+  .dashboardApp  .form div{
+        width: 28%;
+        min-width: 250px;
+        margin: 5px 0;
+    }
+
+    .card input{
+        border-radius: 5px;
+        outline: none;
+        color:orange;
+        border:none;
+        padding: 10px;
+        border-bottom: 1px solid orange;
+    }
+
+    .card input[type=submit], #logout a{
+        margin: 30px 0;
+        width: 200px;
+        text-align: center;
+        color:white;
+        background-color: orange;
+        cursor: pointer;
+        box-shadow: 0 2px 3px 2px rgba(128, 128, 128, 0.6);
+        border-radius: 5px;
+        display: block;
+        padding: 10px;
+    }
+
+    #logout a{
+        margin:auto;
+    }
+
+    #logout h4{
+        text-align: center;
+    }
+
+    .flex_card{
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .dashboardApp  #products_item{
+        padding: 30px;
+        width:100%;
+    }
+
+    .item_box{
+        width:47%;
+        text-align: center;
+        min-width: 300px;
+    }
+
+    .item_box h5{
+        margin:20px 0 0 0;
+        text-align: left;
+    }
+
+
+    .item_box input{
+        display: block;
+        width: 80%;
+    }
+
+    #products_item > .card > a{
+        display: inline-block;
+        color: orange;
+        border:1px solid orange;
+        border-radius: 5px;
+        padding:10px;
+        margin: 10px;
+        width: 100px;
+        text-align: center;
+    }
+
+
+    #products_item > .card > a:hover, #products_item > .card > a:active, #products_item > .card > a.active{
+        color:white;
+        background-color: orange;
+    }
+
+    .item_box img{
+        display: block;
+        margin:30px auto;
+        width: 60%;
+    }
+
+    .item_box p:last-child{
+        color:green;
+    }
+
+    .item_box form p{
+        text-align: left;
+    }
+
+    .dashboardApp   #products_item > a{
+        color:grey;
+    }
+
+    #summary p{
+        border-radius: 10px;
+        width: 90%;
+        background-color: rgba(255, 166, 0, 0.288);
+        color: rgb(22, 22, 22);
+        margin:10px auto;
+        padding: 5px;
+    }
+    .gift_card > p{
+        margin:0;
+        padding: 0;
+    }
+
+    .gift_card .flex_card b{
+        background-color: black;
+        display: block;
+        color:white;
+        margin:0 5px;
+        padding:0;
+        width:20px;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .gift_card img{
+        display: block;
+        margin:auto;
+        width:50px;
+    }
+
+    .result{
+        position: fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        background-color: rgba(0, 0, 0, 0.479);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .card{
+        position: relative;
+    }
+
+    .result .card, .transful{
+        text-align: center;
+    }
+
+    .result .card img, .transful img{
+        width: 50px;
+    }
+    .result .card h4, .transful h4{
+    color:green;
+    }
+
+
+    .result a, .transful a{
+        display: inline-block;
+        border:1px solid orange;
+        border-radius: 5px;
+        padding:10px;
+        margin: 10px;
+        width: 100px;
+        text-align: center;
+        color:white;
+        background-color: orange;
+        box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.7);
+    }
+
+    #summary{
+        position: static;
+    }
+    .table a{
+        display: block;
+        text-align: center;
+        color:grey;
+    }
+
+    a.disabled{
+        opacity: 0.5;
+    }
+
+    .center{
+        text-align:center;
+        margin: 20px 0;
+
+    }
+
+    .center a{  
+        display: inline-block;
+        border:1px solid orange;
+        border-radius: 5px;
+        padding:5px;
+        margin: 5px;
+        text-align: center;
+        color:white;
+        background-color: orange;
+        box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.7);
+    }
+
+
+    
+.dashflex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
+.dash_home{
+    background-color: orange;
+    background-image:url("../images/Group 344.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.144);
+    width: 47%;
+    min-width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.dash_home > div{
+    width: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.dash_home > div h2{
+    color:white;
+    font-size: 20px;
+}
+
+.dash_home > div p{
+    color:white;
+}
+
+.dash_home > div a{
+    color:rgb(228, 226, 226);
+    border-bottom: 1px solid white;
+}
+
+
+.dash_home > div:last-child{
+    width: 58%;
+}
+
+.dash_home > div:last-child img{
+    width: 80%;
+    margin:auto;
+    display: block;
+}
+
+.dash_home_two{
+    width: 47%;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.144);
+    background:white;
+    min-width: 300px;
+    margin: 20px auto;
+}
+
+.dash_home_two h2{
+    color:rgb(0, 0, 65);
+    font-size: 20px;
+}
+
+.flex_between{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.flex_between > div{
+    background:rgb(61, 61, 109);
+    width:70px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flex_between > div img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin:auto;
+}
+
+.flex_between > div p{
+    color:white;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+}
+
+.dash_home_two table{
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+
+.dash_home_two table td, .dash_home_two table th{
+    text-align: center;
+    color:rgb(25, 25, 66);
+}
+.dash_home_two table tr{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+
+.product_item{
+    border-radius: 10px;
+    box-shadow: 4px 0 6px 3px rgba(128, 128, 128, 0.4);
+    overflow: hidden;
+    padding:10px;
+    margin: 20px auto;
+}
+
+.product_item div{
+    height: 110px;
+    background-image:url("../images/Group 194.png") ;
+    padding: 10px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product_item h4{
+    color:white;
+    margin:20px 0 0 0;
+}
+
+.grey{
+    color:rgb(83, 83, 83);
+    text-align: center;
+}
+
+.product_item a{
+    display: block;
+    padding: 10px;
+    margin:5px auto;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+}
+
+
+.product_item a{
+    display: block;
+    padding: 10px;
+    margin:5px auto;
+    border-radius: 10px;
+    color:white;
+}
+
+
+.product_item:first-child div, .product_item:first-child a{
+    background-color: rgb(52, 52, 255);
+}
+
+.product_item:last-child div, .product_item:last-child a{
+    background-color: purple;
+}
+
+.product_item:nth-child(2) div, .product_item:nth-child(2) a{
+    background-color: rgb(68, 109, 7);
+}
+
+
+
+.dashflex_two{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+@media screen and (max-width: 700px){
+
+
+    #dashboard{
+        margin: 8vh 0 0 0;
+    }
+    .dashboardHold{
+        width:100%;
+    }
+    #transactions{
+        padding: 15px;
+        width: 100%;
+    }
+    .dashboardApp  #profile, #logout{
+        width:100%;
+        padding:15px;
+    }
+}

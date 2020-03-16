@@ -1,0 +1,30 @@
+#giftcard a{
+    background: orange;
+    color:white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    border: 1px solid orange;
+}
+
+#giftcard a:hover{
+    background: none;
+    color:orange;
+}
+
+#giftcard > .card{
+    text-align: center;
+}
+
+.flex_card{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item_box{
+    width:48%;
+}

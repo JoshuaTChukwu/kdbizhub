@@ -1,0 +1,101 @@
+
+#products > .products_one > div:hover{
+    transform: translate(10px, 10px);
+}
+
+#products > .products_two > div:hover{
+    transform: translate(10px, 10px);
+}
+
+#products > .products_two, #products > .products_one{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.products_one > div{
+    margin: 20px;
+    border-radius: 7px;
+    width:200px;
+    padding: 10px;
+    box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.527)
+}
+
+   .products_one > div  img{
+        width: 40px;
+    }
+
+   .products_one > div  h3, .products_one > div  p{
+    margin:0;
+    color:white;
+}
+
+.products_one > div h5{
+    background: white;
+    color:green;
+    padding:2px 5px;
+    width: 60px;
+    border-radius: 4px;
+    margin:5px 0;
+}
+
+
+   .products_one > div:first-child{
+        background: #5163FF url("../images/Group 1.png");
+    }
+
+   .products_one > div:nth-child(2){
+        background: #D251FF  url("../images/Group 1.png");
+    }
+
+   .products_one > div:nth-child(3){
+        background: #2AA100  url("../images/Group 1.png");
+    }
+
+   .products_one > div:nth-child(4){
+        background: #E99C00  url("../images/Group 1.png");
+    }
+
+    .homepageApp #products{
+    background: rgba(238, 238, 238, 0.596);
+    width:100%;
+    position: relative;
+}
+
+ #products h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 30px;
+}
+
+   .products_two > div{
+        margin: 20px;
+        border-radius: 7px;
+        width:200px;
+        padding: 30px;
+        box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.527)
+    }
+
+   .products_two > div  img{
+        width: 40px;
+    }
+
+   .products_two > div  h3, .products_two > div  p{
+        margin:0;
+        color:white;
+    }
+
+   .products_two > div:first-child{
+        background: #00B4BB url("../images/Group 1.png");
+    }
+
+   .products_two > div:nth-child(2){
+        background: #003BA1  url("../images/Group 1.png");
+    }
+
+   .products_two > div:nth-child(3){
+        background: #606060  url("../images/Group 1.png");
+    }
+

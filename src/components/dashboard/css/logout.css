@@ -1,0 +1,27 @@
+button{
+    display: block;
+    margin: 20px auto;  
+        color:white;
+        border: 1px solid #FD8E06;
+        border-radius: 5px;
+        background: #FD8E06;
+        padding:10px 20px;
+        cursor: pointer;
+        font-size: 20px;
+        box-shadow: 1px 1px 4px 1.5px rgba(128, 128, 128, 0.6);
+    
+    
+    
+    }
+
+
+    #logout{
+        width:80%;
+    }
+
+    @media screen and (max-width: 700px){
+
+        #logout{
+            width:100%;
+        }
+    }    

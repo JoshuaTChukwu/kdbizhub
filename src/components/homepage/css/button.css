@@ -1,0 +1,28 @@
+
+
+.asidebutton{
+    display: block;
+    position: fixed;
+    right:40px;
+    bottom:40px;
+}
+
+.asidebutton img{
+    width:50px;
+}
+
+@media screen and (max-width: 700px){
+ 
+
+
+    .asidebutton{
+        display: block;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+    }
+    
+    .asidebutton img{
+        width:30px;
+    }
+}

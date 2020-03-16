@@ -1,0 +1,14 @@
+
+#terms{
+    padding: 40px 0;
+}
+
+#terms h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#terms p{
+    width: 80%;
+    margin:auto;
+}

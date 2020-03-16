@@ -1,0 +1,51 @@
+#rates{
+    padding: 20px 0px;
+}
+
+ #rates h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.rates{
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.3);
+    border-radius:10px;
+    overflow: hidden;
+}
+ 
+.rates > div{
+    height:560px; 
+    background-color: #FFFFFF; 
+    overflow:hidden; 
+    box-sizing:  border-box; 
+    text-align: right; 
+    line-height:14px; 
+    font-size: 12px; 
+    font-feature-settings: normal; 
+    text-size-adjust: 100%; 
+    width: 100%;
+}
+ 
+.rates > div > div{
+    height:540px; 
+    width: 100%
+}
+ 
+#rates   .rates > div > div> iframe{
+    border:0;
+    margin:0;
+    padding:0;
+    line-height:14px;
+}
+
+
+
+
+@media screen and (max-width: 700px){
+.rates{
+    width: 90%;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.2);
+}
+}

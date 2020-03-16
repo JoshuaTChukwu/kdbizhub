@@ -1,0 +1,31 @@
+@media screen and (max-width: 700px){
+
+    .dashboardApp{
+        display: flex;
+        flex-flow:column nowrap;
+    }
+    
+
+ .dashboardApp   #transactions, 
+  .dashboardApp  #products, 
+  .dashboardApp  #profile, 
+  .dashboardApp  #logout,
+  .dashboardApp  #products_item{
+        margin-top:10vh;
+    }
+
+  .dashboardApp  #products > a{
+        color:grey;
+        font-weight: lighter;
+        margin: 10px 2px 20px 2px;
+        padding: 0 2px 2px 2px;
+    }
+    
+
+  .dashboardApp  .flex_card{
+        justify-content: space-around;
+    }
+    .item_box{
+        padding:0 20px;
+    }
+}

@@ -1,0 +1,92 @@
+#contact{
+    background: url("../images/contact.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact > div > div h1{
+    color:white;
+    text-align:center;
+    font-size: 30px;
+}
+
+#contact > div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.521);
+}
+
+#contact  >div > div p{
+    color:white;
+    text-align:right;
+}
+
+#contact >div > div:last-child{
+    width: 50%;
+}
+
+#contact > div > div form input, #contact > div > div form textarea{
+    display: block;
+    width:100%;
+    background:none;
+    padding: 20px;
+    color:white;
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
+#contact > div > div form input:focus, #contact > div > div form textarea:focus{
+    display: block;
+    background:none;
+    padding: 20px;
+    color:white;
+    border: 1px solid white;
+    margin: 20px 0;
+    outline: none;
+}
+
+
+
+#contact > div form input, #contact > div form textarea, #contact > div form input[type=submit]{
+    display: block;
+    width:100%;
+    background:none;
+    padding: 20px;
+    color:white;
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
+#contact > div > div:hover{
+    transform: translate(10px, 10px);
+}
+
+#contact > div form input:focus, #contact > div form textarea:focus{
+    display: block;
+    background:none;
+    padding: 20px;
+    color:white;
+    border: 1px solid white;
+    margin: 20px 0;
+    outline: none;
+}
+
+#contact > div form input[type=submit]:hover{
+    background: white;
+    color:black;
+    cursor: pointer;
+}
+
+#contact  form > p{
+    text-align:center !important;
+    color:orange !important;
+}
+
+@media screen and (max-width: 700px){
+    #contact >div > div:last-child{
+        width: 100%;
+    }
+}

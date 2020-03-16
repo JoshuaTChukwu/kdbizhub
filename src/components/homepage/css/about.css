@@ -1,0 +1,149 @@
+
+#about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 90px 0;
+    background: url("../images/Group 321.png");
+    background-size: cover;
+}
+
+#about > div:first-child:hover{
+    transform: translate(10px, 10px);
+}
+
+#about > div:last-child > div > div:hover{
+    transform: translate(10px, 10px);
+}
+
+#about > div:first-child{
+    width: 30%;
+    text-align: center;
+}
+
+#about > div:first-child h3{
+    font-size: 30px;
+    margin:4px;
+}
+
+#about > div:first-child p{
+    color:grey;
+    margin:0 0 20px 0;
+    font-size: 20px;
+}
+
+
+
+
+#about > div:last-child{
+    width: 60%;
+    text-align: center;
+}
+
+#about > div:last-child > div{
+    width: 40%;
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+#about > div:last-child > div:first-child{
+    transform: translateY(-100px);
+}
+
+
+#about > div:last-child > div > div{
+    box-shadow: 0 0 10px 3px rgba(128, 128, 128, 0.281);
+    border-radius: 6px;
+    padding:20px 6px;
+    margin: 20px 0;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about > div:last-child > div > div img{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 100px;
+}
+
+#about > div:last-child > div > div p{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+
+
+#about > div:last-child > div:first-child > div:first-child{
+    color:white;
+    background: #5163FF url("../images/Group 1.png");
+}
+
+
+
+#about > div:last-child > div:first-child > div:last-child{
+    background: white url("../images/Group 191.png");
+}
+
+#about > div:last-child > div:first-child > div:last-child img{
+    width: 80px;
+}
+
+
+#about > div:last-child > div:last-child > div:last-child{
+    color:white;
+    background: #E99C00 url("../images/Group 1.png");
+}
+
+#about > div:last-child > div:last-child > div:last-child img{
+    color:white;
+    width: 80px;
+}
+
+
+#about > div:last-child > div:last-child > div:first-child{
+    color:black;
+    background: white url("../images/Group 191.png");
+}
+
+
+#about > div:last-child > div:last-child > div:first-child img{
+    width: 80px;
+}
+
+#about > div:last-child > div:last-child > div:last-child p,
+#about > div:last-child > div:first-child > div:first-child p{
+    color: white;
+}
+
+@media screen and (max-width: 700px){
+
+
+    #about{
+        flex-flow: column;
+    }
+
+    #about > div:first-child{
+        width: 90%;
+    }
+
+    #about > div:last-child{
+        width: 100%;
+    }
+
+    #about > div:last-child > div{
+        width: 70%;
+    }
+
+    #about{
+        margin:0;
+    }
+
+    #about > div:last-child > div:first-child{
+        transform: translateY(0px);
+    }
+}
